@@ -28,7 +28,7 @@
 			<version>7.4.0</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -65,9 +65,16 @@
 			<version>1.0.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
+		<dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.4.4</version>
+		</dependency>
+
 
 	</dependencies>
-<build>
+	<build>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
@@ -113,5 +120,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
 </project>
